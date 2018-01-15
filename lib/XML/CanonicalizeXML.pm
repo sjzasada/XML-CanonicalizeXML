@@ -26,7 +26,7 @@ our @EXPORT = qw(
 
 );
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 sub AUTOLOAD {
     # This AUTOLOAD is used to 'autoload' constants from the constant()
@@ -100,8 +100,8 @@ None by default.
 
 =head1 SEE ALSO
 
+https://github.com/sjzasada/XML-CanonicalizeXML for GitHub project
 http://www.xmlsoft.org for full details of libxml2
-
 
 =head1 AUTHOR
 
