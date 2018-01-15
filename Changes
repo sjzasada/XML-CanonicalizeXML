@@ -1,5 +1,8 @@
 Revision history for Perl extension CanonicalizeXML.
 
+0.09  Mon Jan 15 16:30:00 2018
+        - Updated documentation
+
 0.07  Mon Jan 15 15:05:52 2018
         - Fixed conflicting function declaration name
 
