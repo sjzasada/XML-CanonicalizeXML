@@ -152,7 +152,7 @@ static xmlXPathObjectPtr load_xpath_expr (xmlDocPtr parent_doc, char* xpathstrin
   return(xpath);
 }
 
-int canonicalize (char *xmlString, char *xpathString, char *nameSpace, int exc, int comm, xmlChar **output) {
+int canonicalizeXml (char *xmlString, char *xpathString, char *nameSpace, int exc, int comm, xmlChar **output) {
   xmlDocPtr myXmlDoc;
   xmlXPathObjectPtr xpath;
   xmlChar **list;

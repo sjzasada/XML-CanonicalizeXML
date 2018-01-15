@@ -25,7 +25,7 @@ canonicalize (xml,xpath,namespace,exclusive,with_comments)
 	       int error = 0;
 	    CODE:
 	        xmlInitParser();
-                error = canonicalize(xml,xpath,namespace,exclusive,with_comments,&output);
+                error = canonicalizeXml(xml,xpath,namespace,exclusive,with_comments,&output);
 		if (error < 0 ) {
 		    croak("Failed to canonicalize string");
 		} else {
