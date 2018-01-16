@@ -2,6 +2,7 @@ CanonicalizeXML.xs
 Changes
 const-c.inc
 const-xs.inc 
+LICENSE
 Makefile.PL
 MANIFEST
 ppport.h

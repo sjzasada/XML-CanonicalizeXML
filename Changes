@@ -1,5 +1,8 @@
 Revision history for Perl extension CanonicalizeXML.
 
+0.10  Tue Jan 16 11:25:10 2018
+        - Fixed build issue on FreeBSD re ticket: https://rt.cpan.org/Ticket/Display.html?id=124090
+
 0.09  Mon Jan 15 16:30:00 2018
         - Updated documentation
 
